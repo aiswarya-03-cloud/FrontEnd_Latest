@@ -1,0 +1,44 @@
+/* 
+.navbar{
+    dispaly: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 8px 4%;
+}
+
+.logo{
+    height : 100px;
+    width: 150px;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px; /* Adjust spacing */
+    background-color: Black; /* Adjust as needed */
+  }
+  
+  .logo {
+    height: 100px; 
+    width : 150px;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between notification & profile pic */
+  }
+  
+  .notification-icon {
+    color: white; /* Adjust color */
+    font-size: 28px; /* Adjust size */
+    cursor: pointer;
+  }
+  
+  .profile {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%; /* Circular shape */
+  }
+  

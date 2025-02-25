@@ -1,0 +1,64 @@
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 4 equal-width columns */
+    gap: 20px; /* Space between cards */
+    margin-top: 20px;
+  }
+  
+  .food-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure cards take full width within the grid cell */
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* For positioning inside the card */
+  }
+  
+  .food-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .food-info {
+    padding-top: 10px;
+  }
+  
+  .food-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .food-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .food-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5722;
+    margin-bottom: 15px;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #b57edc; /* Lavender color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #9b6ab1; /* Darker shade of lavender */
+  }
+  

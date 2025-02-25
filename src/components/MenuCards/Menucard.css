@@ -1,0 +1,23 @@
+.image{
+    height: 50px;
+    width: 50px;
+}
+
+/* styles.css */
+.add-to-cart-button {
+    background-color: #E6E6FA; /* Lavender background */
+    color: #4B0082; /* Indigo text color */
+    font-weight: bold; /* Bold text */
+    font-size: 16px; /* Font size */
+    padding: 12px 24px; /* Padding for size */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #D8BFD8; /* Thistle shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  

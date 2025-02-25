@@ -1,0 +1,10 @@
+.top-restaurants-title {
+
+    text-align: left;
+    margin-left: 5%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;  /* Adds space between Navbar and Heading */
+    margin-bottom: 30px;
+    color: #d6cedf;
+}
